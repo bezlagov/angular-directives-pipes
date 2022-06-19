@@ -1,0 +1,11 @@
+.selected{
+    color: #ff0000;
+    margin: 35px;
+    padding: 15px;
+    font-style: italic;
+    background-color: #000000;
+}
+
+.border{
+    border: 4px solid #ff0000;
+}

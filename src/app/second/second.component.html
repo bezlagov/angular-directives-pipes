@@ -1,0 +1,29 @@
+<div class="secondTask">
+    <div class="colorSettings">
+        <div>
+            <label style="color: blue;" for="blue">Blue</label>
+            <input name="color" type="radio" id="blue" (change)="onSelectToggle('blue')"/>
+        </div>
+        <div>
+            <label style="color: red;" for="red">Red</label>
+            <input name="color" type="radio" id="red" (change)="onSelectToggle('red')" />
+        </div>
+        <div>
+            <label style="color: green;" for="green">Green</label>
+            <input name="color" type="radio" id="green" (change)="onSelectToggle('green')" />
+        </div>
+        <div>
+            <label style="color: gold;" for="gold">Gold</label>
+            <input name="color" type="radio" id="gold"  (change)="onSelectToggle('gold')" />
+        </div>
+    </div>
+    <div [ngStyle]="color" class="blockForColoring">Nulla aliquet enim tortor at. Euismod nisi porta lorem mollis aliquam ut porttitor leo
+        a. Morbi enim nunc faucibus a pellentesque sit. Sollicitudin nibh sit amet commodo nulla. Etiam non quam lacus
+        suspendisse faucibus interdum posuere. Venenatis a condimentum vitae sapien pellentesque habitant morbi
+        tristique. Sed viverra tellus in hac habitasse platea dictumst vestibulum. Molestie nunc non blandit massa.
+        Vitae congue eu consequat ac felis donec. Cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl.
+        Consequat id porta nibh venenatis cras sed felis. Nunc sed augue lacus viverra vitae congue eu consequat.
+        Condimentum vitae sapien pellentesque habitant morbi. Ornare quam viverra orci sagittis. Euismod lacinia at quis
+        risus sed. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu.
+    </div>
+</div>

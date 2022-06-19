@@ -1,0 +1,16 @@
+.secondTask{
+    display: flex;
+    justify-content: space-between;
+}
+.colorSettings{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.colorSettings div{
+    display: flex;
+    justify-content: end;
+}
+

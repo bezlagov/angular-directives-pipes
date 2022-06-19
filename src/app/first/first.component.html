@@ -1,0 +1,10 @@
+<ul>
+    <li *ngFor="let item of listOfStrings; let i=index" (click)="onClickItem(i)">
+        {{item}}
+    </li>
+</ul>
+
+<ng-container *ngIf="resultIndex!=-1">
+    <p [ngClass]="selected">{{listOfStrings[resultIndex]}}</p>
+</ng-container>
+
