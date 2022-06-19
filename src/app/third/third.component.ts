@@ -13,7 +13,7 @@ export class ThirdComponent implements OnInit {
   currency: number = 1000.5;
   pi: number = 3.141592653589793238;
   percent: number = 0.5;
-  
+
   constructor() { }
 
   ngOnInit(): void {

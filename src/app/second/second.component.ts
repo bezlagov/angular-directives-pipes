@@ -17,7 +17,7 @@ export class SecondComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onSelectToggle(style:string):void {
+  onSelectToggle(style: string): void {
     this.color.color = style;
   }
 }
