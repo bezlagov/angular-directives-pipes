@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecondComponent implements OnInit {
 
+  radioColors: string[] = [
+    "blue",
+    "red",
+    "green",
+    "gold"
+  ]
+
   color = {
     color: "black"
   };
